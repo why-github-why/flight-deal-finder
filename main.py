@@ -11,7 +11,7 @@ print(today, tomorrow, six_months_from_now)
 
 # KIWI
 KIWI_ENDPOINT = "https://tequila-api.kiwi.com/v2/search"
-KIWI_API_KEY = "_H78EQXmz-r6cOfGJwgz_9imZEmWLuXL"
+KIWI_API_KEY = "**********"
 
 # SEARCH
 kiwi_params = {
@@ -52,7 +52,7 @@ def get_IATA_codes(city: str) -> list:
 
     }
     iata_headers = {
-        "apikey": "_H78EQXmz-r6cOfGJwgz_9imZEmWLuXL",
+        "apikey": "**********",
         "Content-Type": "application/json",
     }
     iata_response = requests.get(iata_url, params=iata_params, headers=iata_headers)

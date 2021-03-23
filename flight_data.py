@@ -8,10 +8,10 @@ class FlightData:
         self.SHEETY_ENDPOINT = "https://api.sheety.co/ce3e0494effc0ceae503ec088710bc16/flightDeals/sheet1"
         self.IATA_URL = "https://tequila-api.kiwi.com/locations/query"  # IATA Codes Query
         self.KIWI_ENDPOINT = "https://tequila-api.kiwi.com/v2/search"
-        self.KIWI_API_KEY = "_H78EQXmz-r6cOfGJwgz_9imZEmWLuXL"
+        self.KIWI_API_KEY = "**********"
 
         self.sheety_headers = {
-            "Authorization": "Basic c210cGxpYjI6NWgzM3R5IyE="
+            "Authorization": "**********"
         }
         sheety_response = requests.get(self.SHEETY_ENDPOINT, headers=self.sheety_headers)
         self.sheety_data = sheety_response.json()

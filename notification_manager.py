@@ -12,7 +12,7 @@ def get_IATA_codes(city: str) -> dict:
         "limit": 10,
     }
     iata_headers = {
-        "apikey": "_H78EQXmz-r6cOfGJwgz_9imZEmWLuXL",
+        "apikey": "**********",
         "Content-Type": "application/json",
     }
     iata_response = requests.get(iata_url, params=iata_params, headers=iata_headers)
